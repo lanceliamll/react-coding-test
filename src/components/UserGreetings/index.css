@@ -1,0 +1,29 @@
+.user-greeting-container {
+  background-color: #7130d5;
+  color: white;
+	height: 120px;
+}
+
+.user-greeting {
+  display: flex;
+	padding: 25px;
+}
+
+.user-greeting-avatar {
+	margin-right: 10px;
+}
+
+.user-greeting-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-greeting-welcome {
+	font-size: 15px;
+}
+
+.user-greeting-name {
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 24px;
+}
