@@ -3,7 +3,6 @@ import {
   createBrowserRouter,
   Route,
   BrowserRouter as Router,
-  RouterProvider,
   Routes,
 } from "react-router-dom";
 import ErrorPage from './components/ErrorPage';
@@ -11,6 +10,7 @@ import Home from './pages/Home';
 import Me from './pages/Me';
 import MyCoupons from './pages/MyCoupons';
 import Navigation from './components/Navigation';
+import './App.css'
 
 const router = createBrowserRouter([
   {
@@ -34,7 +34,7 @@ console.log({ router })
 
 function App() {
   return (
-    <div>
+    <div className='app'>
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />

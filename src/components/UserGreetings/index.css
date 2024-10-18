@@ -1,12 +1,12 @@
 .user-greeting-container {
   background-color: #7130d5;
   color: white;
-	height: 120px;
+	height: 110px;
 }
 
 .user-greeting {
   display: flex;
-	padding: 25px;
+	padding: 24px;
 }
 
 .user-greeting-avatar {
