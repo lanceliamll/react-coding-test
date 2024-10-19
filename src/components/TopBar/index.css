@@ -1,0 +1,40 @@
+.top-bar-container {
+	width: 100%;
+	position: sticky;
+	top: -5px;
+	height: 60px;
+	background-color: #7130D5;
+}
+
+.top-bar-items {
+	display: flex;
+	color: #FFFFFF;
+	font-weight: 500;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.top-bar-item {
+	display: flex;
+	justify-content: flex-end;
+	font-size: 18px;
+	margin-top: 12px;
+	margin-left: 5px;
+}
+
+.top-bar-label {
+	text-decoration: none;
+	margin-top: 5px;
+	/* margin-left: 10px; */
+}
+
+.top-bar-item-2 {
+	display: flex;
+	justify-content: flex-end;
+	font-size: 20px;
+	margin-top: 15px;
+}
+
+.top-bar-item-empty {
+	width: 100px;
+}

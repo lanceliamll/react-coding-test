@@ -1,0 +1,14 @@
+.product-list-ex-container {
+  background-color: #ffffff;
+  margin: 15px;
+  border-radius: 10px;
+  height: 100vh;
+	box-sizing: border-box;
+}
+
+.product-items-ex {
+	display: flex;
+  flex-wrap: wrap;
+	justify-content: space-around;
+  gap: 10px; 
+}

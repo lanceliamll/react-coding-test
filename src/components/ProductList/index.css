@@ -21,6 +21,11 @@
 .product-see-all {
 	color: #7130D5;
 	font-size: 12px;
+	font-weight: 500;
+}
+
+.product-see-all a{
+	text-decoration: none;
 }
 
 .product-items {

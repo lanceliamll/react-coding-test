@@ -11,6 +11,7 @@ import Me from './pages/Me';
 import MyCoupons from './pages/MyCoupons';
 import Navigation from './components/Navigation';
 import './App.css'
+import SeeAll from './pages/SeeAll';
 
 const router = createBrowserRouter([
   {
@@ -30,7 +31,6 @@ const router = createBrowserRouter([
   },
 ]);
 
-console.log({ router })
 
 function App() {
   return (
@@ -38,6 +38,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/see-all" element={<SeeAll />} />
           <Route path="/my-coupons" element={<MyCoupons />} />
           <Route path="/me" element={<Me />} />
           <Route path="*" element={<ErrorPage />} />
