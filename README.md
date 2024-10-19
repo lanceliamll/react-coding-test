@@ -5,13 +5,14 @@
 
 ## Setup
 1. You should have `git` installed in your machine => https://git-scm.com/
-2. Open git and clone the repository
+2. You should also have nodejs installed in your machine => https://nodejs.org/en
+3. Open git and clone the repository
 - `git clone https://github.com/lanceliamll/react-coding-test.git`
-3. After cloning, you should be able to change directory on the newly created folder
+4. After cloning, you should be able to change directory on the newly created folder
 - `cd react-coding-test`
-4. Install dependencies, `npm i`
-5. After installing, you can run the app using `npm start`
-6. It will run on `http://localhost:3000`, or depends on the available port
+5. Install dependencies, `npm i`
+6. After installing, you can run the app using `npm start`
+7. It will run on `http://localhost:3000`, or depends on the available port
 
 ## Available Pages
 
