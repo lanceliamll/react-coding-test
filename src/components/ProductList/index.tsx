@@ -6,7 +6,7 @@ export default function ProductList({ items, header }: { items?: ProductItemType
   return (
     <div className="product-list-container">
       <div className="product-list-heading">
-				<div className="product-for-you">{header || '-'}</div>
+				<div className="product-for-you">{header || ''}</div>
 				<div className="product-see-all">See All</div>
 			</div>
 
@@ -14,7 +14,6 @@ export default function ProductList({ items, header }: { items?: ProductItemType
 				{(items || [])?.map(item => {
 					return <ProductItem {...item} />
 				})}
-				
 			</div>
     </div>
   )

@@ -11,7 +11,6 @@ const useGetProducts = () => {
       setLoading(true);
       try {
         const response = await fetch("/data.json");
-        console.log({ response });
         if (!response.ok) {
           throw new Error(`Error: ${response.statusText}`);
         }

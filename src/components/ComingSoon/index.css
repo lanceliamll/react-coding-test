@@ -1,0 +1,25 @@
+/* ComingSoon.css */
+.coming-soon-container {
+  height: calc(100% - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f5;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.coming-soon-content {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.coming-soon-title {
+  font-size: 48px;
+  color: #333;
+}

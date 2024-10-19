@@ -3,12 +3,13 @@ import Avatar from '../Avatar'
 import './index.css'
 
 export default function UserGreetings() {
+	const [userImage] = React.useState("https://staticg.sportskeeda.com/editor/2023/10/1946e-16962152072191-1920.jpg?w=640")
 	return (
 		<div className='user-greeting-container'>
 			<div className='user-greeting'>
 				{/* Avatar */}
 				<div className='user-greeting-avatar'>
-					<Avatar alt="Nicole Sample" size={46} />
+					<Avatar src={userImage} alt="Nicole Sample" size={46} />
 				</div>
 
 				{/* Text */}
