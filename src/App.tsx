@@ -1,6 +1,5 @@
 import React from 'react';
 import {
-  createBrowserRouter,
   Route,
   BrowserRouter as Router,
   Routes,
@@ -12,25 +11,6 @@ import MyCoupons from './pages/MyCoupons';
 import Navigation from './components/Navigation';
 import './App.css'
 import SeeAll from './pages/SeeAll';
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "/my-coupons",
-    element: <MyCoupons />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "/me",
-    element: <Me />,
-    errorElement: <ErrorPage />,
-  },
-]);
-
 
 function App() {
   return (
